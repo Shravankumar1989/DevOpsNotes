@@ -2,7 +2,7 @@
 #terraform destroy --target github_repository.My-First-Repository-Create
 
 provider "github" {
-  token = "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"
+  token = "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"
 }
 
 resource "github_repository" "My-First-Repository-Create" {

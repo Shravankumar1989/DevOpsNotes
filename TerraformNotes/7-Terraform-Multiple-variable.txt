@@ -1,0 +1,11 @@
+variable username {
+	default = "Shravankumar"
+}
+
+resource "printname" {
+	value = "My user name is ${var.username}"
+}
+
+also you can use below command
+
+terraform plan -var "username=Shravankumar"

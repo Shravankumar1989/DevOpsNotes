@@ -1,8 +1,8 @@
 #if you want to delete particular resource below please find the commands
-#terraform destory --target github_repository.My-First-Repository-Create
+#terraform destroy --target github_repository.My-First-Repository-Create
 
 provider "github" {
-  token = "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"
+  token = "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"
 }
 
 resource "github_repository" "My-First-Repository-Create" {

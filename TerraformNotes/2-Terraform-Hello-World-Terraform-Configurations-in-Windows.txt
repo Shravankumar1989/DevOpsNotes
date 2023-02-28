@@ -1,0 +1,5 @@
+Filename - firstTerraformPgm.tf
+--------------------------------
+resource "print" {
+	value = "hello world!"
+}

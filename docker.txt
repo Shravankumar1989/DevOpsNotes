@@ -1,0 +1,16 @@
+1.what is docker?
+------------------
+Docker is contianerization platform.
+Docker is a software platform that allows you to build, test, and deploy applications quickly
+
+2.what is docker image?
+-----------------------
+A Docker image contains application code, libraries, tools, dependencies and other files needed to make an application run.
+
+3.what is docker compose?
+-------------------------
+docker-compose is used for creating multiple containers, host them and establish communication between them.
+
+4.list all docker container
+----------------------------
+docker container ls -a

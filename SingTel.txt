@@ -1,0 +1,12 @@
+NexusIQ:- 			Nexus Vulnerability Scanner is a tool that scans your application for 					  		vulnerabilities and gives you a report on its analysis.
+
+Fortify:-    		Fortify is a software security tool developed by Micro Focus.
+             		capabilities for identifying and managing security vulnerabilities in software applications.
+
+Confluence:-	 	Confluence is a web-based collaboration and documentation tool developed by 				 	Atlassian.
+
+Nexus Repository:- 	provides a repository for storing and managing binary artifacts, such as 				   		application libraries and components.
+
+SonarQube:-  		SonarQube is an open-source developed by SonarSource
+			 		it is used code review to find duplicate source code, detect bugs and code smells.
+			 		it is used maintain clean and quality code 

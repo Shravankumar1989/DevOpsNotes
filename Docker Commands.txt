@@ -1,0 +1,112 @@
+
+https://git-school.github.io/visualizing-git/
+
+
+
+
+Docker CE (Community Edition) is the simple classical OSS (Open Source Software) Docker Engine.
+
+Docker EE (Enterprise Edition)
+
+
+
+1. docker container run hello-world (hello-world = is a image name)
+2. sudo systemctl status docker
+3. docker system info
+4. sudo usermod -aG docker edureka
+5. sudo adduser amit and for delete docker privilege(sudo gpasswd -d amit docker)
+6. su -i amit
+7. whoami
+
+
+
+ host_ip:host_port:container_port
+
+
+Docker commands 
+
+this is basic docker command 
+----------------------------
+docker <docker-object> <sub-command> [option or arguments]
+example : docker image ls -a
+
+1. docker version
+2. docker --version for client and server
+3. docker system info
+4. sudo systemctl status docker
+
+
+
+docker image ls 
+docker container ls
+docker container ls -a
+docker container ls -l latest
+docker network ls
+
+
+docker container attach webapp
+
+
+
+How to create a image in container using docker
+
+
+1. docker container run --it --name webapp ubuntu (--it means interactive termainal mode) --- correct way
+
+2. docker container run --it --name testcont --hostname webapp ubuntu
+
+
+docker login docker.io
+
+
+docker image ls
+
+docker image pull ubuntu 
+
+remove unused image 
+-----------------------
+docker image prune -a
+
+
+
+display the all the details of Ubuntu
+-------------------------------------
+docker image inspect ubuntu 
+
+
+Where image to be stored ??
+--------------------------------
+docker system info
+
+
+Docker restart policy 
+
+--restart=no
+--restart=on-failure
+--restart=always
+--restart=unless-stopped
+
+docker container run -itd --name=caseone --restart=no ubuntu
+
+docker container run -itd --name=casetwo --restart=on-failure ubuntu
+
+docker container run -itd --name=casetwo --restart=always ubuntu
+
+docker container run -itd --name=casetwo --restart=unless-stopped ubuntu
+
+Image Push into docker-hub
+--------------------------
+docker login docker.io
+
+Username: shravankumarp
+Pwd : @9
+
+
+1. docker image push shravankumarp/firstImage:ubuntu
+
+
+Docker Networks
+---------------
+1. Bridge
+2. Host
+3. None

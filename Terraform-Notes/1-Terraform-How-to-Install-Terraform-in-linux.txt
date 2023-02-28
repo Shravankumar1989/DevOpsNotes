@@ -1,6 +1,0 @@
-1. Download terraform zip file
-2. unzip downloaded file
-3. binary file will be der
-4. sudo cp terraform /usr/local/bin/
-   it will ask password : put current password.
-5. run terraform command 

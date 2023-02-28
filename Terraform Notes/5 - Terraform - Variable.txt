@@ -1,5 +1,0 @@
-variable username {}
-
-resource "printname" {
-	value = "My user name is ${var.username}"
-}
